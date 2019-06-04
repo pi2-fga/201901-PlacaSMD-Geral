@@ -17,13 +17,15 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 from rest_framework import routers
-from Unidade_Central.viewsets import UserViewSet
+from Unidade_Central.viewsets import *
 
 # MAIN API URL ROOT
 router = routers.DefaultRouter()
 
 # Register a route to the router
 router.register(r'user', UserViewSet, 'User')
+router.register(r'fita', FitaViewSet, 'Fita')
+router.register(r'familiacomponentes', FamiliaComponentesViewSet, 'FamiliaComponentes')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
