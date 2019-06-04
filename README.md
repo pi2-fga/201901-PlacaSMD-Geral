@@ -12,4 +12,34 @@ Para contribuir com as outras aplicações do nosso sistema, acesse nossa organi
 
 ### Ambiente
 
-Para executar o ambiente do projeto acesse nosso [guia de instalação](guia_de_instalacao.md)
+Para executar o ambiente do projeto é necessário a ter instalado o virtualenv. 
+Após ter baixado o projeto, copiar a pasta pi2 para fora do projeto.
+
+## Banco de dados
+
+Ter instalado o PostgreSQL e criar a base de dados chamada UnidadeCentral.
+
+## Entrar no ambiente virtual
+
+Executar o comando source 'caminho da pasta pi2'/bin/activate pelo terminal. 
+Após a execução deste comando, o terminal irá ser modificado, constando a palavra "(pi2)" na frente da linha de execução
+
+## Executando as Migrações
+
+No terminal, digitar os comandos: 
+
+```
+$ python manage.py makemigrations
+```
+
+```
+$ python manage.py maigrate
+```
+
+## Executando o projeto
+
+```
+$ python manage.py runserver
+```
+
+ 
