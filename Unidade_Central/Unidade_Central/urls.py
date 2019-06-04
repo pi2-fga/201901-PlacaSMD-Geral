@@ -24,8 +24,10 @@ router = routers.DefaultRouter()
 
 # Register a route to the router
 router.register(r'user', UserViewSet, 'User')
-router.register(r'fita', FitaViewSet, 'Fita')
 router.register(r'familiacomponentes', FamiliaComponentesViewSet, 'FamiliaComponentes')
+router.register(r'fita', FitaViewSet, 'Fita')
+router.register(r'placa', PlacaViewSet, 'Placa')
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
