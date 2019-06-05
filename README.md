@@ -12,7 +12,7 @@ Para contribuir com as outras aplicações do nosso sistema, acesse nossa organi
 
 ### Ambiente
 
-Para executar o ambiente do projeto é necessário a ter instalado o virtualenv. 
+Para montar o ambiente do projeto é necessário a ter instalado o virtualenv. 
 Após ter baixado o projeto, copiar a pasta pi2 para fora do projeto.
 
 ## Banco de dados
