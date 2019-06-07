@@ -12,12 +12,16 @@ Para contribuir com as outras aplicações do nosso sistema, acesse nossa organi
 
 ### Ambiente
 
+## Pré-Requisitos 
+* Python atuliazado
+* Virtualenv atualizado
+
 Para montar o ambiente do projeto é necessário a ter instalado o virtualenv. 
 Após ter baixado o projeto, copiar a pasta pi2 para fora do projeto.
 
 ## Banco de dados
 
-Ter instalado o PostgreSQL e criar a base de dados chamada UnidadeCentral.
+Ter instalado o PostgreSQL, criar a base de dados chamada unidadecentral e criar um usuário chamado admin com a senha 'admin'.
 
 ## Entrar no ambiente virtual
 
