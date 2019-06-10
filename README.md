@@ -31,6 +31,9 @@ Após a execução deste comando, o terminal irá ser modificado, constando a pa
 ## Executando as Migrações
 
 No terminal, digitar os comandos: 
+```
+$ pip install requirements.txt
+```
 
 ```
 $ python manage.py makemigrations
