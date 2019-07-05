@@ -49,4 +49,12 @@ $ python manage.py maigrate
 $ python manage.py runserver
 ```
 
- 
+# Enviando o Gcode para o microcontrolador MSP430
+
+* Entrar na pasta EnviarGcode
+* No terminal digitar o comando: 
+
+```
+$ python send_gcode.py -p /dev/ttyACM0 -f 'Diretório do Gcode'
+```
+Onde o caminho '/dev/ttyACM0' é o caminho da porta serial
