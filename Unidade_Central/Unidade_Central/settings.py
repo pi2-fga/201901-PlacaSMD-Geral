@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'Unidade_Central.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'UnidadeCentral',
-        'USER': 'postgres',
-        'PASSWORD': '',
+        'NAME': 'unidadecentral',
+        'USER': 'admin',
+        'PASSWORD': 'admin',
         'HOST': 'localhost',
         'POST': '5432'
     },
