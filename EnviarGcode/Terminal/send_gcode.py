@@ -45,7 +45,7 @@ for line in f:
 	if  (l.isspace()==False and len(l)>0) :
 		print ( 'Enviando: ' + l )
 		s.write(l) # Send g-code block
-		grbl_out = s.readline() # Wait for response with carriage return
+		grbl_out = s.read(10) # Wait for response with carriage return
 		print ( ' : ' + grbl_out.strip() )
 		#command = s.read()
 		#print str(command)
